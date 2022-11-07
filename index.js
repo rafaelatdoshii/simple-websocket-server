@@ -4,6 +4,7 @@ var expressWs = require("express-ws")(app);
 var bodyParser = require("body-parser");
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+require('log-timestamp');
 const port = 8000;
 
 app.ws("/ws", function (ws, req) {
