@@ -6,8 +6,17 @@
     <form action="/msg" method="post" autocomplete="off">
         <label for="message">Message:</label>
         <input type="text" id="message" name="message"><br><br>
-        <br>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit Custom JSON">
+    </form>
+</br>
+    <form action="/msg/pong" method="post" autocomplete="off">
+        <input type="submit" value="Pong" />
+    </form>
+</br>
+    <form action="/msg/startpip" method="post" autocomplete="off">
+        <input type="text" id="amount" name="amount" placeholder="Pip Amount"><br><br>
+        <input type="text" id="tip" name="tip" placeholder="Tip Amount"><br><br>
+        <input type="submit" value="Start PIP" />
     </form>
 </body>
 
