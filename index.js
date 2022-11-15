@@ -54,9 +54,8 @@ app.post("/msg/startpip", function (req, res) {
         "amount": amount,
         "tip": tip,
         "timestamp": "43983",
-        "transactionID": "transactionID",
+        "transactionId": "transactionID",
         "doshiiPosId": "doshiiPosId",
-        
         }
     ));
   });
